@@ -13,7 +13,10 @@ const LanguageMenu = (props) => {
   }
 
   return(
-    <div>
+    <div style={{
+      color: `white`,
+      textDecoration: `none`,
+    }}>
       <p onClick={() => changeLang('en')}>en</p>/
       <p onClick={() => changeLang('zh')}>zh</p>
     </div>

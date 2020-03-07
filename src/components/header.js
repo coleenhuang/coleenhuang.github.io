@@ -2,11 +2,13 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import LanguageMenu from './LanguageMenu.js'
+import MainMenu from './MainMenu'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header
     style={{
-      background: `rebeccapurple`,
+      color: 'white',
+      background: `black`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -25,10 +27,10 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
         </Link>
       </h1>
     </div>
+    <MainMenu></MainMenu>
     <LanguageMenu></LanguageMenu>
   </header>
 )
