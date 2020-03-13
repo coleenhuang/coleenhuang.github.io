@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { useTranslation } from "react-i18next"
-
+import styles from './LanguageMenu.module.css'
 
 const LanguageMenu = (props) => {
   const { t, i18n } = useTranslation()
@@ -13,13 +13,16 @@ const LanguageMenu = (props) => {
   }
 
   return(
-    <div style={{
-      color: `white`,
-      textDecoration: `none`,
-    }}>
-      <p onClick={() => changeLang('en')}>en</p>/
-      <p onClick={() => changeLang('zh')}>zh</p>
-    </div>
+    <nav className={styles.wrapper}>
+      <ul className={styles.langNav}>
+        <li className={styles.lang} onClick={() => changeLang('en')}>
+          en
+        </li>
+        <li className={styles.lang} onClick={() => changeLang('zh')}>
+          zh
+        </li>
+      </ul>
+    </nav>
   )
 }
 

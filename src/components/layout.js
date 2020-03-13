@@ -22,7 +22,7 @@
 
  const Layout = ({ children, t, i18n }) => {
    return (
-     <>
+     <div>
        <Header siteTitle={`Hello`} />
        <div
          style={{
@@ -39,7 +39,7 @@
            © {new Date().getFullYear()}, {t(`site.footer`)}
          </footer>
        </div>
-     </>
+     </div>
    )
  }
 

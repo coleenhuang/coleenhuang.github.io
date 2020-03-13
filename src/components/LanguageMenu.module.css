@@ -1,0 +1,14 @@
+.wrapper {
+  grid-area: lang;
+}
+.langNav {
+  display: flex;
+  flex-direction: row;
+}
+
+.lang {
+  margin-left: 15px;
+  display: block;
+  color: white;
+  list-style-type: none;
+}
