@@ -7,7 +7,7 @@ i18next.init({
       translations: require('../locales/zh/translations.json')
     },
     en: {
-            translations: require('../locales/en/translations.json')
+      translations: require('../locales/en/translations.json')
     }
   },
   ns: ['translations'],

@@ -25,7 +25,20 @@
     "title": "關於我"
   },
   "projects": {
-    "title": "計劃書"
+    "title": "計劃書",
+    "projectList": [
+      {
+        "title": "古希臘知多少（英)",
+        "tech": "Html, CSS, Javascript, jQuery",
+        "description": "受到了我對西方古典文學和古希臘的性趣影響，我用jQuery製作這個程式來考驗別人對希臘的了解有多深"
+      },
+      {
+        "title": "自行車天氣預報",
+        "tech": "Html, CSS, Javascript, Vue",
+        "description": "騎自行車"
+      }    
+    ]
+
   },
   "contact": {
     "title": "聯絡"

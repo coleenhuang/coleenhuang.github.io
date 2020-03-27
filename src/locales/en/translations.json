@@ -23,10 +23,22 @@
   },
   "about":{
     "title": "About",
-    "content": ""
+    "content": "I've always been someone who loves creating and trying new things. My fascination with programming began when I saw my dad write a program to solve his sudoku puzzles for him. It opened a new door for me, as it showed how programming as basically harnessing the power of the computer to make life easier. My desire to get better at programming grew when I started working at a lab. It was inefficient to use google sheets as a database for tracking thousands of mice. And also how painful and time consuming it was to manually count each data point on the photos of each sample. I felt that there must be a better way of doing this. "
   },
   "projects": {
-    "title": "Projects"
+    "title": "Projects",
+    "projectList": [
+      {
+        "title":"Ancient Greek Quiz App",
+        "tech":"Html, CSS, Javascript, jQuery",
+        "description":"Inspired my love of Classics and Ancient Greece, I created this app to test people on trivia about Ancient Greece."
+      },
+      {
+        "title":"Bike Weather App",
+        "tech":"Html, CSS, Javascript, Vue",
+        "description":"Biking and weather."
+      }
+    ]
   },
   "contact": {
     "title": "Contact"
