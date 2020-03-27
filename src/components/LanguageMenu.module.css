@@ -1,5 +1,5 @@
 .wrapper {
-  grid-area: lang;
+  display: block;
 }
 .langNav {
   display: flex;

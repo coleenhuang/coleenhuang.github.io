@@ -1,0 +1,26 @@
+
+.images {
+  max-width: 300px;
+  margin-bottom: 1.45rem;
+}
+
+.book {
+  display: none;
+}
+
+@media (min-width: 992px){
+  .gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "chocolate book";
+  }
+  .chocolate {
+    display: inline-block;
+    grid-area: chocolate;
+  }
+  .book {
+    display: inline-block;
+    grid-area: book;
+  }
+}

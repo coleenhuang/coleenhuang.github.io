@@ -4,10 +4,16 @@
     "Gatsby Default Starter": "Gatsby Default Starter",
     "footer": "Built with Gatsby"
   },
+  "header":{
+    "menu": "Menu",
+    "about":"About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
   "home": {
     "test": "hello",
-    "title": "Hi people",
-    "content": "Welcome to your new Gatsby site.\nNow go build something great.",
+    "title":"",
+    "content": "Hi, I'm Coleen Huang, a web developer based in the Sacramento Area.",
     "link": "Go to page 2"
   },
   "page2": {
@@ -16,7 +22,8 @@
     "link": "Go back to the homepage"
   },
   "about":{
-    "title": "About"
+    "title": "About",
+    "content": ""
   },
   "projects": {
     "title": "Projects"

@@ -4,10 +4,16 @@
     "Gatsby Default Starter": "Gatsby 起始專案",
     "footer": "使用 Gatsby 建置"
   },
+  "header":{
+    "menu": "選單",
+    "about":"關於我",
+    "projects": "計劃書",
+    "contact": "聯絡"
+  },
   "home": {
     "test": "哈囉",
-    "title": "嗨!大家好",
-    "content": "歡迎來到你新的Gatsby網站.\n開始建置很棒的內容吧!",
+    "title": "",
+    "content": "你好，我是黃可瑩，一名位於美國加州的網頁開發者",
     "link": "進入第2頁"
   },
   "page2": {

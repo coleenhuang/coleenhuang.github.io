@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import { useTranslation } from "react-i18next"
+import StartImage from '../components/StartImg'
 
 const IndexPage = (props) => {
   const { t } = useTranslation()
@@ -11,18 +11,8 @@ const IndexPage = (props) => {
     <div>
       <SEO title="Home" />
       <h1>{t('home.title')}</h1>
-      {t('home.content').split('\n').map(function(item, key) {
-          return (
-            <p key={key}>
-              {item}
-            </p>
-          )
-        })
-      }
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
-      <Link to="/page-2/">{t('home.link')}</Link>
+      <p style={{fontSize: '25px', textAlign: 'center'}}>{t('home.content')}</p>
+        <StartImage  />
     </div>
   )
 }
