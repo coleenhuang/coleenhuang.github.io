@@ -3,11 +3,10 @@ import LanguageMenu from './LanguageMenu';
 import MainMenu from './MainMenu';
 
 const SideNav = (props) =>{
-  console.log(props.open)
   return(
-    <div style={{display:`${props.open?'block':'none'}`}}>
-      <LanguageMenu/>
-      <MainMenu />
+    <div style={{display:`${props.menu?'block':'none'}`}}>
+      <LanguageMenu />
+      <MainMenu menu={props.menu} switch={props.switch}/>
     </div>
   )
 };

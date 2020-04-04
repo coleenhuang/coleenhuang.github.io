@@ -10,6 +10,7 @@ import { useTranslation } from "react-i18next"
 const Header = (props) => {
     const { t } = useTranslation();
     const [showMenu, setMenu] = useState(false);
+    const toggleMenu = ()=>setMenu(showMenu?false:true)
     return(
     <header className={styles.header}>
       <div>
@@ -20,7 +21,7 @@ const Header = (props) => {
         </h1>
       </div>
       <div className={styles.menuButton} >
-        <p onClick={()=>setMenu(showMenu?false:true)}>
+        <p onClick={toggleMenu}>
           {t("header.menu")}
         </p>
       </div>
@@ -28,7 +29,7 @@ const Header = (props) => {
         <MainMenu></MainMenu>
         <LanguageMenu ></LanguageMenu>
       </div>
-      <SideNav open={showMenu}/>
+      <SideNav menu={showMenu} switch={toggleMenu}/>
     </header>
 )}
 
