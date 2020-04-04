@@ -3,14 +3,22 @@
 }
 .mainNav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 li {
-  margin: 0 1rem;
+  margin: 1rem 0.5em;
   display: block;
 }
 
 .mainNav a {
-  color: white;
+  color: black;
+  padding: 1.5em;
+}
+
+@media (min-width: 768px){
+  .mainNav {
+    display: flex;
+    flex-direction: row;
+  }
 }

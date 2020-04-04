@@ -1,13 +1,15 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { useState } from "react"
 import LanguageMenu from './LanguageMenu.js'
 import MainMenu from './MainMenu'
+import SideNav from './SideNav'
 import styles from './header.module.css'
 import { useTranslation } from "react-i18next"
 
 const Header = (props) => {
     const { t } = useTranslation();
+    const [showMenu, setMenu] = useState(false);
     return(
     <header className={styles.header}>
       <div>
@@ -18,19 +20,18 @@ const Header = (props) => {
         </h1>
       </div>
       <div className={styles.menuButton} >
-        <p onClick={openMenu}>{t("header.menu")}</p>
+        <p onClick={()=>setMenu(showMenu?false:true)}>
+          {t("header.menu")}
+        </p>
       </div>
       <div className={styles.navWrapper}>
         <MainMenu></MainMenu>
         <LanguageMenu ></LanguageMenu>
       </div>
+      <SideNav open={showMenu}/>
     </header>
 )}
 
-function openMenu(e) {
-    e.preventDefault();
-    console.log('menu opened')
-}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

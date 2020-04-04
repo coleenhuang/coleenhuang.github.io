@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-rows: 200px 300px;
+  grid-template-areas:
+    "intro"
+    "hotchocolate";
+}
+
+.intro {
+  display: inline-block;
+  grid-area: intro;
+}
+
+.hotChocolate {
+  display: inline-block;
+  margin-left: 16%;
+  max-width: 300px;
+  grid-area: hotchocolate;
+}
+
+
+@media (min-width: 992px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "hotchocolate intro";
+    padding-top: 10%;
+  }
+}

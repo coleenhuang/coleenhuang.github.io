@@ -19,8 +19,4 @@
     display: inline-block;
     grid-area: chocolate;
   }
-  .book {
-    display: inline-block;
-    grid-area: book;
-  }
 }

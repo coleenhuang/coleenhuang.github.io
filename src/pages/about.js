@@ -8,7 +8,7 @@ const AboutPage = (props) => {
   return(
     <div>
       <SEO title="About" />
-      <h1>{t('about.title')}</h1>
+      <h1 style={{textAlign:'center'}}>{t('about.title')}</h1>
       <p>about</p>
     </div>
   )

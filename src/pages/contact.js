@@ -2,22 +2,20 @@ import React from "react"
 import { Link } from "gatsby"
 import { useTranslation } from "react-i18next"
 import SEO from "../components/seo"
+import ContactLink from "../components/ContactLinks"
 
 const ContactPage = (props) => {
   const { t } = useTranslation()
   return(
     <div>
       <SEO title="Contact" />
-      <h1>{t('contact.title')}</h1>
-      <div class="email">
-        <a href='mailto:coleenhuang@gmail.com'>coleenhuang@gmail.com</a>
-      </div>
-      <div class="github">
-        <a href="https://github.com/coleenhuang">Github</a>
-      </div>
-      <div class="linkedin">
-        <a href="https://www.linkedin.com/in/coleen-huang-95896b185/">LinkedIn</a>
-      </div>
+      <h1 style={{textAlign: "center"}}>{t('contact.title')}</h1>
+      <ContactLink link='mailto:coleenhuang@gmail.com'
+        text="coleenhuang@gmail.com" />
+      <ContactLink link='https://github.com/coleenhuang'
+          text="Github" />
+      <ContactLink link='https://www.linkedin.com/in/coleen-huang-95896b185/'
+          text="LinkedIn" />
     </div>
   )
 }
