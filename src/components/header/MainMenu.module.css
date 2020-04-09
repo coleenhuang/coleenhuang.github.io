@@ -4,17 +4,17 @@
 .mainNav {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-li {
-  margin: 1rem 0;
+.mainNav li {
   display: block;
+  padding: 1.5rem;
 }
 
 .mainNav a {
   color: black;
-  margin: 0 auto;
-  padding: 1.5em;
 }
 
 @media (min-width: 768px){

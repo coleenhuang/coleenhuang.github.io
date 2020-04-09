@@ -15,10 +15,10 @@ const LanguageMenu = (props) => {
   return(
     <nav className={styles.wrapper}>
       <ul className={styles.langNav}>
-        <li className={styles.lang} onClick={() => changeLang('en')}>
+        <li onClick={() => changeLang('en')}>
           en
         </li>
-        <li className={styles.lang} onClick={() => changeLang('zh')}>
+        <li onClick={() => changeLang('zh')}>
           zh
         </li>
       </ul>

@@ -9,7 +9,9 @@ const AboutPage = (props) => {
     <div>
       <SEO title="About" />
       <h1 style={{textAlign:'center'}}>{t('about.title')}</h1>
-      <p>about</p>
+      {t("about.content").split('\n').map((paragraph, key) =>
+      <p key={key}>{paragraph}</p>
+    )}
     </div>
   )
 }
