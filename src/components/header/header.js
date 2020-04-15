@@ -22,7 +22,7 @@ const Header = (props) => {
       </div>
       <div className={styles.menuButton} >
         <p onClick={toggleMenu}>
-          {t("header.menu")}
+          {showMenu?t("header.close"):t("header.menu")}
         </p>
       </div>
       <div className={styles.navWrapper}>

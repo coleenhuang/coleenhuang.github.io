@@ -4,13 +4,11 @@ import MainMenu from './MainMenu';
 
 const SideNav = (props) =>{
   const [dimensions, setDimensions] = React.useState({
-   height: window.innerHeight,
    width: window.innerWidth
  })
  React.useEffect(() => {
    function handleResize(){
      setDimensions({
-       height: window.innerHeight,
        width: window.innerWidth
      })
    }
@@ -25,7 +23,6 @@ const SideNav = (props) =>{
      gridArea:'nav',}}>
       <LanguageMenu />
       <MainMenu switch={props.switch}/>
-       <div>Rendered at {dimensions.width} x {dimensions.height}</div>
     </div>
   )
 }

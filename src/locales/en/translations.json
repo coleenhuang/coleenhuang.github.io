@@ -6,6 +6,7 @@
   },
   "header":{
     "menu": "Menu",
+    "close":"Close",
     "about":"About",
     "projects": "Projects",
     "contact": "Contact"
@@ -23,18 +24,20 @@
   },
   "about":{
     "title": "About",
-    "content": "My fascination with programming began when I saw my dad write a program to solve his sudoku puzzles for him. It opened a new door for me, as it showed how programming as basically harnessing the power of computers to make our lives easier.\n My desire to get better at programming grew when I started working at a lab.  The inefficiency of using google sheets as a database for tracking thousands of mice or having to manually count each data point on the photos of each sample, made me want to be able to efficiently use the power of a computer to do things more efficiently. \nI’ve always loved creating and learning new things, and being a web developer allows me to fulfill those desires, as I create new apps and websites and try out different technologies. It also allow me to create apps related to my various interests, such as baking or microbiology."
+    "content": "My fascination with programming began when I saw my dad write a program to solve his sudoku puzzles for him. It opened a new door for me, as it showed how programming as basically harnessing the power of computers to make our lives easier.\n My desire to get better at programming grew when I started working at a lab.  The inefficiency of using google sheets as a database for tracking thousands of mice or having to manually count each data point on the photos of each sample, made me want to be able to efficiently use the power of a computer to do things more efficiently. \nThis desire combined with my love for creating and learning new things, and being a web developer allows me to fulfill those desires, as I create new apps and websites and try out different technologies. It also allow me to create apps related to my various interests, such as baking or microbiology."
   },
   "projects": {
     "title": "Projects",
     "projectList": [
       {
         "title":"Ancient Greek Quiz App",
+        "img_name": "projects/quizapp.png",
         "tech":"Html, CSS, Javascript, jQuery",
         "description":"Inspired my love of Classics and Ancient Greece, I created this app to test people on trivia about Ancient Greece."
       },
       {
         "title":"Bike Weather App",
+        "img_name": "projects/bikeweatherapp.png",
         "tech":"Html, CSS, Javascript, Vue",
         "description":"I've always had a hard time knowing whether I needed a bike light or not, since the time the sun sets varies a lot according to the time of the year. This weather app was made to solve that problem. It's revamped from a previous app made using jQuery."
       }

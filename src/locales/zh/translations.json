@@ -6,6 +6,7 @@
   },
   "header":{
     "menu": "選單",
+    "close": "關",
     "about":"關於我",
     "projects": "計劃書",
     "contact": "聯絡"
@@ -23,18 +24,20 @@
   },
   "about":{
     "title": "關於我",
-    "content": "我對於編程的興趣是由我爸爸挑起的。有一次我爸爸因為解不出數獨，所以自己寫了個程式來幫他解題。即使我挺鄙視爸爸作弊的行為，但這也為了我開啟了一個新的大門，因為我發現"
+    "content": "我對於編程的興趣是由我爸爸挑起的。有一次我爸爸因為解不出數獨，所以自己寫了個程式來幫他解題。即使我挺鄙視爸爸作弊的行為，但這也為了我開啟了一個新的大門，因為我發現編程並不是用鍵盤打一些神秘的密碼，而是利用電腦的演算能力讓生活更方便。\n我在實驗室工作時"
   },
   "projects": {
     "title": "計劃書",
     "projectList": [
       {
         "title": "古希臘知多少（英)",
+        "img_name": "projects/quizapp.png",
         "tech": "Html, CSS, Javascript, jQuery",
         "description": "受到了我對西方古典文學和古希臘的性趣影響，我用jQuery製作這個程式來考驗別人對希臘的了解有多深"
       },
       {
         "title": "自行車天氣預報",
+        "img_name": "projects/bikeweatherapp.png",
         "tech": "Html, CSS, Javascript, Vue",
         "description": "因為黃昏時間依季節有很大的差異，出門騎車時我永遠記不住需不需要帶腳踏車燈。為了解決我出門騎腳踏車時的煩惱，我製作了這個程式來告訴我天氣狀況和在天黑時提醒我帶腳踏車燈。"
       }

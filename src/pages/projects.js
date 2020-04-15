@@ -15,7 +15,8 @@ const ProjectPage = (props) => {
           <Project
           key={key}
           title={project.title} tech={project.tech}
-          description={project.description} />
+          description={project.description}
+          image={project.img_name}/>
         )
       })}
     </div>
