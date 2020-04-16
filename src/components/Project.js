@@ -1,15 +1,23 @@
 import React from 'react';
 import { useTranslation } from "react-i18next"
 import ProjectImg from './ProjectImg.js'
-
+import styles from './Project.module.css'
 const Project = (props) => {
   const { t } = useTranslation();
   return(
-    <div>
-      <h2>{props.title}</h2>
+    <div class={styles.project}>
+      <h2 style={{textAlign: 'center'}}>{props.title}</h2>
       <ProjectImg image={props.image} />
-      <p>Technologies used:{props.tech}</p>
+      <p>{t("projects.technology")} {props.tech}</p>
       <p>{props.description}</p>
+      <div class={styles.projectlinks}>
+        <div class="repo">
+          <a href={props.repo}>{t("projects.repo")}</a>
+        </div>
+        <div class="demo">
+          <a href={props.demo}>{t("projects.demo")}</a>
+        </div>
+      </div>
     </div>
   )
 }

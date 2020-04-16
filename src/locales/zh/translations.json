@@ -28,18 +28,25 @@
   },
   "projects": {
     "title": "計劃書",
+    "technology": "所用的技術:",
+    "repo": "倉庫",
+    "demo": "示範",
     "projectList": [
-      {
-        "title": "古希臘知多少（英)",
-        "img_name": "projects/quizapp.png",
-        "tech": "Html, CSS, Javascript, jQuery",
-        "description": "受到了我對西方古典文學和古希臘的性趣影響，我用jQuery製作這個程式來考驗別人對希臘的了解有多深"
-      },
       {
         "title": "自行車天氣預報",
         "img_name": "projects/bikeweatherapp.png",
         "tech": "Html, CSS, Javascript, Vue",
-        "description": "因為黃昏時間依季節有很大的差異，出門騎車時我永遠記不住需不需要帶腳踏車燈。為了解決我出門騎腳踏車時的煩惱，我製作了這個程式來告訴我天氣狀況和在天黑時提醒我帶腳踏車燈。"
+        "description": "因為黃昏時間依季節有很大的差異，出門騎車時我永遠記不住需不需要帶腳踏車燈。為了解決我出門騎腳踏車時的煩惱，我製作了這個程式來告訴我天氣狀況和在天黑時提醒我帶腳踏車燈。",
+        "repo_link":"https://github.com/coleenhuang/bikeweatherapp-vue",
+        "demo_link":"https://coleenhuang.github.io/bikeweatherapp-vue/#/"
+      },
+      {
+        "title": "古希臘知多少（英)",
+        "img_name": "projects/quizapp.png",
+        "tech": "Html, CSS, Javascript, jQuery",
+        "description": "受到了我對西方古典文學和古希臘的性趣影響，我用jQuery製作這個程式來考驗別人對希臘的了解有多深",
+        "repo_link":"https://github.com/coleenhuang/Ancient-Greece-quiz",
+        "demo_link":"https://coleenhuang.github.io/Ancient-Greece-quiz/greek-quiz-app"
       }
     ]
 
