@@ -24,7 +24,7 @@
   },
   "about":{
     "title": "About",
-    "content": "My fascination with programming began when I saw my dad write a program to solve his sudoku puzzles for him. It opened a new door for me, as it showed how programming as basically harnessing the power of computers to make our lives easier.\n My desire to get better at programming grew when I started working at a lab.  The inefficiency of using google sheets as a database for tracking thousands of mice or having to manually count each data point on the photos of each sample, made me want to be able to efficiently use the power of a computer to do things more efficiently. \nThis desire combined with my love for creating and learning new things, and being a web developer allows me to fulfill those desires, as I create new apps and websites and try out different technologies. It also allow me to create apps related to my various interests, such as baking or microbiology."
+    "content": "My fascination with programming began when I saw my dad write a program to solve his sudoku puzzles for him. It opened a new door for me, as it showed how programming as basically harnessing the power of computers to make our lives easier.\n I love programming, as it allows me to satisfy my love for learning and creating new things, as I create new apps and websites to try out new technologies. It also gives me the opportunity to create applications that make my life easier, such as a weather app that not only tells me the weather but also if I need a bike light or not.\n If I’m not working on my next app or website, you’ll probably either find me in the kitchen, making my next loaf of sourdough bread, or on the sofa reading a book."
   },
   "projects": {
     "title": "Projects",
