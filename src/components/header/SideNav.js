@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import LanguageMenu from './LanguageMenu';
 import MainMenu from './MainMenu';
+import window from 'global'
 
 const SideNav = (props) =>{
   const [dimensions, setDimensions] = React.useState({
