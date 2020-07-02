@@ -14,3 +14,7 @@
   color: black;
   list-style-type: none;
 }
+
+.active {
+  text-decoration: underline;
+}
