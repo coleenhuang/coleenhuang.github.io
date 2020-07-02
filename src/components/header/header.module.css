@@ -6,12 +6,9 @@
   top: 0;
   margin: 0;
   padding: 1rem 2.5rem 1rem 2.5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 150px 1fr 1fr;
-  grid-template-areas:
-    "home . menu"
-    "nav nav nav"
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .header a {
@@ -46,6 +43,14 @@
 
 
 @media (min-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 1fr;
+    grid-template-areas:
+      "home menu"
+      "nav nav"
+  }
   .menuButton {
     display: none;
   }
