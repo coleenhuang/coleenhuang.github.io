@@ -13,7 +13,7 @@
    return (
      <div>
          <Header toggleMenu={toggleMenu} showMenu={showMenu}/>
-        <MobileNav open={showMenu} switch={toggleMenu}/>
+        <MobileNav open={showMenu} toggleMenu={toggleMenu}/>
         <div
           style={{
             margin: `0 auto`,
