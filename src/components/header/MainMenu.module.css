@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 0;
 }
 
 .mainNav li {
@@ -21,5 +22,8 @@
   .mainNav {
     display: flex;
     flex-direction: row;
+  }
+  .contact {
+    margin-right: 1.25rem;
   }
 }

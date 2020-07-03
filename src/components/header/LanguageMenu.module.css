@@ -6,13 +6,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-left: 0;
 }
 
 .langNav li {
   display: block;
-  padding-left: 1.5em;
   color: black;
   list-style-type: none;
+}
+
+.zh {
+  text-indent: 1.5em;
 }
 
 .active {

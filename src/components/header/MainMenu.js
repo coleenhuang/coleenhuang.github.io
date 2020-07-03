@@ -18,7 +18,7 @@ function MainMenu(props) {
             {t('header.projects')}
           </Link>
         </li>
-        <li>
+        <li className={styles.contact}>
           <Link to="/contact" onClick={props.switch}>
             {t('header.contact')}
           </Link>

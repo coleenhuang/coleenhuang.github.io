@@ -20,7 +20,8 @@ const LanguageMenu = (props) => {
           en
         </li>
         <li onClick={() => changeLang('zh')}
-        className={`${currentLang==='zh'&&styles.active}`}>
+        className={`${currentLang==='zh'&&styles.active}
+          ${styles.zh}`}>
           zh
         </li>
       </ul>
