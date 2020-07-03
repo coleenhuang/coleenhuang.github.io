@@ -8,10 +8,11 @@
   position: fixed;
   top: 0;
   transform: translateY(-100vh); /* will be transitioned to 0px */
-  transition: transform 0.3s, height 0.3s;
+  transition: transform 0.4s, height 0.4s;
   overflow: hidden;
   font-size: 20px;
 }
+
 .mobileMenu a {
     font-family: 'Ovo';
 }

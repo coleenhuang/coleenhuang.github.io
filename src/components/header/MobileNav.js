@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import LanguageMenu from './LanguageMenu';
 import MainMenu from './MainMenu';
 import styles from './mobileNav.module.css'
 
-const MobileNav = (props) =>{
+const MobileNav = ({open, switch}) =>{
   return(
     <div
-    className={`${styles.mobileMenu} ${props.open&&styles.open}`}
+    className={`${styles.mobileMenu} ${open&&styles.open}`}
     >
       <LanguageMenu />
-      <MainMenu switch={props.switch}/>
+      <MainMenu switch={switch}/>
     </div>
   )
 }
