@@ -32,6 +32,14 @@
     "demo": "Demo",
     "projectList": [
       {
+        "title":"Microbes in the Kitchen",
+        "img_name": "projects/Micen.png",
+        "tech":"React, GatsbyJS, Prismic, GraphQL, i18next",
+        "description":"I've always wanted to have a bilingual recipe blog, but because I haven't come across a bilingual blog template that I liked, I decided to build my own.",
+        "repo_link":"https://github.com/coleenhuang/Microbes-in-the-Kitchen",
+        "demo_link":"https://microbes-in-the-kitchen.now.sh/"
+      },
+      {
         "title":"Bike Weather App",
         "img_name": "projects/bikeweatherapp.png",
         "tech":"Html, CSS, Javascript, Vue",

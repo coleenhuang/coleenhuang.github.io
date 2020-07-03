@@ -33,6 +33,14 @@
     "demo": "示範",
     "projectList": [
       {
+        "title": "廚房微生物日常",
+        "img_name": "projects/Miczh.png",
+        "tech": "React, GatsbyJS, Prismic, GraphQL, i18next",
+        "description": "我一直想要一個雙語的部落格，但是我能找到的雙語佈景主題不是很醜，就是很難用，所以我決定給自己做一個符合我個人要求的雙語部落格",
+        "repo_link":"https://github.com/coleenhuang/Microbes-in-the-Kitchen",
+        "demo_link":"https://microbes-in-the-kitchen.now.sh/"
+      },
+      {
         "title": "自行車天氣預報",
         "img_name": "projects/bikeweatherapp.png",
         "tech": "Html, CSS, Javascript, Vue",
