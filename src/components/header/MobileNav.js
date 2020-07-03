@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import LanguageMenu from './LanguageMenu';
 import MainMenu from './MainMenu';
-import window from 'global'
 import styles from './mobileNav.module.css'
 
 const MobileNav = (props) =>{
