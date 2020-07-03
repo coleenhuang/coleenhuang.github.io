@@ -1,7 +1,7 @@
 import React from 'react';
 import LanguageMenu from './LanguageMenu';
 import MainMenu from './MainMenu';
-import styles from './mobileNav.module.css'
+import styles from './MobileNav.module.css'
 
 const MobileNav = ({open, toggleMenu}) =>{
   return(
