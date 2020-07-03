@@ -23,7 +23,7 @@ const ProjectImg = (props) => {
     ({ node }) => node.relativePath === props.image
   ).node
   return(
-    <div style={{maxWidth: '350px', margin:'0 auto'}}>
+    <div style={{maxWidth: '350px', margin:'0 auto', display: 'block'}}>
       <Img fluid={img.childImageSharp.fluid} />
     </div>
   )
