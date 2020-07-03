@@ -11,6 +11,9 @@
 a {
   text-decoration: none;
 }
+a:hover {
+  color: darkgrey;
+}
 
 main {
   padding: 0 10vw 10vh;
