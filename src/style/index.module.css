@@ -3,7 +3,7 @@
   grid-template-rows: 200px 300px;
   grid-template-areas:
     "intro"
-    "hotchocolate";
+    "startimage";
 }
 
 .intro {
@@ -11,11 +11,11 @@
   grid-area: intro;
 }
 
-.hotChocolate {
+.cupoftea {
   display: inline-block;
   margin-left: 16%;
   max-width: 300px;
-  grid-area: hotchocolate;
+  grid-area: startimage;
 }
 
 
@@ -24,7 +24,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "hotchocolate intro";
+      "startimage intro";
     padding-top: 10%;
   }
 }

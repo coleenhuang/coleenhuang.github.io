@@ -18,7 +18,7 @@ const IndexPage = (props) => {
           {t('home.content')}
           </p>
         </div>
-        <div className={styles.hotChocolate}>
+        <div className={styles.cupoftea}>
         <StartImage  />
         </div>
       </div>
