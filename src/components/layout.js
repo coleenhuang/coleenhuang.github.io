@@ -1,15 +1,14 @@
-  import React, { useState } from "react"
+ import React, { useState } from "react"
  import PropTypes from "prop-types"
- import { useStaticQuery, graphql } from "gatsby"
- import { withTrans } from '../i18n/withTrans'
-
+ import { useTranslation } from 'react-i18next'
  import Header from "./header/header"
  import MobileNav from './header/MobileNav'
  import "./layout.css"
 
- const Layout = ({ children, t, i18n }) => {
+ const Layout = ({ children, i18n }) => {
     const [showMenu, setMenu] = useState(false);
     const toggleMenu = ()=>setMenu(showMenu?false:true)
+    const { t } = useTranslation()
    return (
      <div>
          <Header toggleMenu={toggleMenu} showMenu={showMenu}/>
@@ -37,4 +36,4 @@
    children: PropTypes.node.isRequired,
  }
 
- export default withTrans(Layout)
+ export default Layout
