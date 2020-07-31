@@ -15,7 +15,7 @@ const IndexPage = (props) => {
       <h1>{t('home.title')}</h1>
       <div className={styles.container}>
         <div className={styles.intro}>
-          <p style={{fontSize: '25px', textAlign: 'center'}}>
+          <p>
           {t('home.content')}
           </p>
         </div>
