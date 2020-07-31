@@ -23,6 +23,6 @@ i18next.use(LanguageDetector).init({
   },
 });
 
-i18next.languages = ['zh-Hant', 'en'];
+i18next.languages = ['zh', 'en'];
 
 export default i18next;

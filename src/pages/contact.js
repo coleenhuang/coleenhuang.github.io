@@ -4,11 +4,12 @@ import Img from 'gatsby-image'
 import { useTranslation } from "react-i18next"
 import SEO from "../components/seo"
 import ContactLink from "../components/ContactLinks"
+import Layout from '../components/layout'
 
 const ContactPage = (props) => {
   const { t } = useTranslation()
   return(
-    <div>
+    <Layout>
       <SEO title="Contact" />
       <h1 style={{textAlign: "center"}}>{t('contact.title')}</h1>
       <div style={{maxWidth:'300px', margin:'0 auto 15px'}}>
@@ -20,7 +21,7 @@ const ContactPage = (props) => {
           text="Github" />
       <ContactLink link='https://www.linkedin.com/in/coleen-huang-95896b185/'
           text="LinkedIn" />
-    </div>
+    </Layout>
   )
 }
 
