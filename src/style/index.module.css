@@ -15,7 +15,7 @@
   font-size: 25px;
   text-align: center;
   opacity: 0;
-  animation: fadein 3s ease-in 2.75s forwards;
+  animation: fadein 3s ease-in  forwards;
 }
 
 @keyframes fadein {
@@ -29,7 +29,7 @@
   max-width: 300px;
   grid-area: startimage;
   opacity: 0;
-  animation: fadein 3s ease-in 0.25s forwards;
+  animation: fadein 1.5s ease-in  1.25s forwards;
 }
 
 
